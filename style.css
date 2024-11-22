@@ -1,0 +1,105 @@
+body { 
+    background: white;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    background-image: url('Pictures/water-6901805_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  #navbar {
+    background-color: white;
+    padding: 0; 
+  }
+  
+  #nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .nav_item {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    flex-grow: 1;
+  }
+  
+  .nav_item a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 100%; 
+    box-sizing: border-box; 
+  }
+
+  .nav_item a:hover {
+    background-color: skyblue;
+    width: 100%; 
+    transition: background-color 0.3s ease;
+  }
+ 
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .round-image {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin: 0 20px; 
+  }
+  
+  .text-box {
+    flex: 1;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+  }
+
+  #footer {
+    background-color:skyblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0; 
+  }
+  
+  #footer a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  #footer a:hover {
+    background-color: skyblue;
+    transition: background-color 0.3s ease;
+  }
+  
+  #footer p {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    color: black;
+  }
